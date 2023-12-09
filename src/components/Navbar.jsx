@@ -12,7 +12,7 @@ export default function Navbar({darkTheme,setDarkTheme}) {
     if(darkTheme)
     {
       setText('Light');
-      setNavClass("bg-dark-elem text-[white] w-full flex flex-row items-center justify-between xs:px-[1rem] px-[0] sm:px-[2.5rem] py-[1rem]");
+      setNavClass("bg-dark-elem text-[white] w-full flex flex-row items-center justify-between px-[1rem] sm:px-[2.5rem] py-[1rem]");
 
     }
     else
