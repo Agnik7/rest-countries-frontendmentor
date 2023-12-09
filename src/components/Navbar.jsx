@@ -18,7 +18,7 @@ export default function Navbar({darkTheme,setDarkTheme}) {
     else
     {
       setText('Dark');
-      setNavClass("bg-[white]  w-full flex flex-row items-center justify-between xs:px-[1rem] px-[0] sm:px-[2.5rem] py-[1rem]");
+      setNavClass("bg-[white]  w-full flex flex-row items-center justify-between px-[1rem] sm:px-[2.5rem] py-[1rem]");
     }
   },[darkTheme]);
   return (
