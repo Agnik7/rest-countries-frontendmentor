@@ -47,6 +47,7 @@ export default function HomePage({darkTheme, data}) {
       setInputClass("block w-full sm:w-[20rem] lg:w-[25rem] p-4 ps-10  placeholder:font-nunito rounded-md shadow-sm outline-none")
       setFilterClass("inline-flex justify-center outline-none border-none gap-[2rem] font-semibold text-[1.1rem] rounded-md items-center px-4 py-[1rem] shadow-sm bg-white hover:bg-gray-50 focus:outline-none ");
       setOpenClass("origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg font-semibold bg-white ring-1 ring-black ring-opacity-5");
+      setOptionsClass("block w-full px-4 py-2 text-left  hover:bg-gray-50 ");
     }
   },[darkTheme]);
   return (
